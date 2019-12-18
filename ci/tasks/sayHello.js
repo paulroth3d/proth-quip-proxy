@@ -8,6 +8,6 @@ const GulpConfig = require('../gulpConfig');
  * Gulp configuration
  */
 gulp.task('say-hello', (done) => {
-  log(`say:${GulpConfig.default.msg}`);
+  log(`say:${GulpConfig.msg}`);
   done();
 });
