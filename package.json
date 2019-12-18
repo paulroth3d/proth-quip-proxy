@@ -8,13 +8,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "gulp": "node node_modules/gulp/bin/gulp.js -f ci/gulpFile.js "
   },
   "dependencies": {
+    "axios": "0.19.0",
+    "config": "3.2.4",
     "ejs": "^2.5.6",
     "express": "^4.15.2"
   },
   "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-mocha": "7.0.2",
+    "gulp-plumber": "1.2.1",
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
