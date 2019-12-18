@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "name": "Proth: Simple Quip Proxy",
+  "description": "A simple proxy server for making https callouts from quip",
+  "repository": "https://github.com/paulroth3d/proth-quip-proxy",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
+  "keywords": ["node", "express", "heroku", "quip", "proxy"],
   "image": "heroku/nodejs"
 }
