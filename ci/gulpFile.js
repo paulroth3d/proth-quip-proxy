@@ -8,6 +8,6 @@ const eslint = require('gulp-eslint');
 /** support tests */
 const mocha = require('gulp-mocha');
 
-require('./tasks/sayHello');
+const tasks = require('./tasks');
 
 gulp.task('default', gulp.series('say-hello'));
