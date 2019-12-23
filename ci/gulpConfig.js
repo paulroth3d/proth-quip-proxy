@@ -8,17 +8,22 @@ const config = {
     say: 'Say ',
     msg: 'Hello!'
   },
-  dir: {
+  paths: {
     ci: './ci',
     public: './public',
-    views: './views'
+    views: './views',
+    eslintConfigPath: './.eslintrc.js'
   },
-  paths: {},
+  filePaths: {},
+  patterns: {
+    src: ['./public/**/*.js', './index.js']
+  },
   get msg(){ return `Say:${this.default.msg}`; }
 };
 
-config.paths.ci = path.resolve(config.dir.ci);
-config.paths.public = path.resolve(config.dir.public);
-config.paths.views = path.resolve(config.dir.views);
+config.filePaths.ci = path.resolve(config.paths.ci);
+config.filePaths.public = path.resolve(config.paths.public);
+config.filePaths.views = path.resolve(config.paths.views);
+config.filePaths.eslintConfigPath = path.resolve(config.paths.eslintConfigPath);
 
 module.exports = config;
