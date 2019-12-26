@@ -9,14 +9,14 @@ const config = {
     msg: 'Hello!'
   },
   paths: {
-    ci: './ci',
-    public: './public',
-    views: './views',
-    eslintConfigPath: './.eslintrc.js'
+    ci: '../ci',
+    public: '../public',
+    views: '../views',
+    eslintConfigPath: '../.eslintrc.js'
   },
   filePaths: {},
   patterns: {
-    src: ['./public/**/*.js', './index.js']
+    src: ['../public/**/*.js', '../index.js']
   },
   get msg(){ return `Say:${this.default.msg}`; }
 };
