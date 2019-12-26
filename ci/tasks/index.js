@@ -1,5 +1,6 @@
 module.exports = {
   sayHello: require('./sayHello'),
   showConfig: require('./showConfig'),
-  lint: require('./lint')
+  lint: require('./lint'),
+  test: require('./test')
 };
