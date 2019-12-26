@@ -16,7 +16,7 @@ const config = {
   },
   filePaths: {},
   patterns: {
-    src: ['../public/**/*.js', '../index.js']
+    src: ['../public/**/*.js', '../index.js', '!../node_modules']
   },
   get msg(){ return `Say:${this.default.msg}`; }
 };
