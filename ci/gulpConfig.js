@@ -16,7 +16,9 @@ const config = {
   },
   filePaths: {},
   patterns: {
-    src: ['../public/**/*.js', '../index.js', '!../node_modules']
+    src: ['../public/**/*.js', '../index.js', '!../node_modules'],
+    internal: ['./gulpFile.js', './tasks/**/*.js'],
+    test: ['../test.js', '../public/**/*.test.js']
   },
   get msg(){ return `Say:${this.default.msg}`; }
 };
