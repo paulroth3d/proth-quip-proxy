@@ -36,6 +36,5 @@
     "heroku",
     "express"
   ],
-  "type": "module",
   "license": "MIT"
 }
